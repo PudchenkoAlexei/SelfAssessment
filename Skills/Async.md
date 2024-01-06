@@ -1,8 +1,8 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop
-  - try..catch
+  - Event loop 👂 
+  - try..catch 👂 
   - Non-blocking
   - Async I/O
   - Thread pool
@@ -10,32 +10,32 @@
   - CAS operations
   - epoll
   - kqueue
-  - Completion ports
-  - Event ports
+  - Completion ports 👂 
+  - Event ports 👂 
   - libuv
   - Race conditions
   - Dead locks
   - Live locks
   - Concurrent programming
-  - Parallel programming
+  - Parallel programming 👂 
   - Actor Model
-  - Thread
-  - Process
+  - Thread 👂 
+  - Process 👂 
 - Async contracts
-  - Callbacks
+  - Callbacks 👂 
   - Callback-last-error-first
   - Thenable
-  - Promise
-  - Async/await
+  - Promise 👂 
+  - Async/await 👂 
   - Future
   - Deferred
   - Sync generator
   - Async Generator
   - Async Iterator
-  - Event
+  - Event 👂 
   - Coroutine
   - Goroutine
-  - Signal
+  - Signal 👂 
   - Stream
   - Chain of responsibility
   - Middleware
@@ -47,13 +47,13 @@
   - callbacks compose
   - async compose
 - Async abstractions interfaces
-  - EventEmitter
+  - EventEmitter 👂 
   - Observable/Observer
   - Readable
   - Writable
   - Transform
-  - Async Pool
-  - Async Queue
+  - Async Pool 👂 
+  - Async Queue 👂 
   - Async Collector
   - Semaphore
   - Mutex
@@ -66,7 +66,7 @@
   - AbortSignal
   - Promise unhandled rejection
   - Promise double resolve
-  - child_process
+  - child_process 👂 
   - worker_threads
   - Atomics
   - High resolution clock
