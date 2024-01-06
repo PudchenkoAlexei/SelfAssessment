@@ -1,34 +1,34 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
+  - Strong and weak sides of node.js 🎓 
+  - Stateful and stateless servers 🎓 
   - Nonblocking I/O and slocking code
   - Event loop: phases
   - Event loop: microtasks and macrotasks
-  - Garbage collection
-  - Node.js LTS schedule
-  - I/O-bound, CPU-bound, memory-bound tasks
-  - Interactive applications (close to real-time)
+  - Garbage collection 👂 
+  - Node.js LTS schedule 🎓 
+  - I/O-bound, CPU-bound, memory-bound tasks 👂 
+  - Interactive applications (close to real-time) 👂 
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - node:module
-  - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts node:vm
-  - Dependencies: npm, node_modules
+  - CommonJS modules 👂 
+  - ECMAScript modules 👂 
+  - node:module 🖐️ 
+  - Caching in CJS and ESM 👂 
+  - Modules as singletons 🎓 
+  - Contexts and scripts node:vm 🎓 
+  - Dependencies: npm, node_modules 🎓 
   - Dependencies: package.json and package lock
   - Module-based permissions model
-  - Isolation with modularity
-  - Dependency injection
+  - Isolation with modularity 👂 
+  - Dependency injection 👂 
   - DI containers
   - Coupling and cohesion
   - Framework agnostic approach
 - Environment
-  - Command line arguments
-  - Node.js CLI
-  - Process-based permissions
+  - Command line arguments 🎓 
+  - Node.js CLI 👂 
+  - Process-based permissions 🎓 
   - Graceful shutdown
   - Clustering
   - Watch filesystem changes with --watch
@@ -43,22 +43,22 @@
   - Worker threads
   - Performance hooks
   - Native fetch and nodejs/undici
-  - node:async_hooks
-  - AsyncLocalStorage
-  - AsyncResource
+  - node:async_hooks 🎓 
+  - AsyncLocalStorage 👂 
+  - AsyncResource 👂 
   - Deprecated domain API
-  - Node.js single executable
+  - Node.js single executable 🎓 
   - Stream back pressure
   - SharedArrayBuffer
-  - node:worker_threads
-  - node:child_process
-  - MessageChannel, MessagePort
-  - BroadcastChannel
+  - node:worker_threads 🎓 
+  - node:child_process 👂 
+  - MessageChannel, MessagePort 👂 
+  - BroadcastChannel 👂 
   - Generating crypto random UUID
-  - node:url vs new URL
-  - node:assert
+  - node:url vs new URL 👂 
+  - node:assert 👂 
   - Internationalization
-  - Blob, File, Buffer, node:buffer
+  - Blob, File, Buffer, node:buffer 👂 
   - Module node:zlib
 - Application structure and architecture
   - Isolation between layer
@@ -66,19 +66,19 @@
   - Separation of concerns
   - Inversion of control
   - Dependency injection
-  - GRASP
-  - SOLID
+  - GRASP 👂 
+  - SOLID 👂 
   - GoF patterns
   - Distributed systems
   - Highload applications
-  - Clean architecture
+  - Clean architecture 👂 
   - DDD
-  - Message Queue
+  - Message Queue 👂 
   - CQS
   - CQRS
   - Event sourcing
   - Load balancing
-  - Serverless clouds
+  - Serverless clouds 👂 
   - FaaS clouds
   - Fat controller
   - GoF for Node.js
@@ -86,77 +86,77 @@
 - Network
   - IP sticky sessions
   - Endpoint throttling
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
+  - HTTP(S) 🎓 
+  - TCP/SSL 🎓 
+  - UDP 🎓 
   - TLS
-  - Websocket
+  - Websocket 🎓 
   - SSE
-  - HTTP/3 (QUIC)
+  - HTTP/3 (QUIC) 🎓 
   - Long polling
-  - REST
+  - REST 🎓 
   - RPC
-  - Routing
-  - DoS
-  - DDoS
+  - Routing 🎓 
+  - DoS 🎓 
+  - DDoS 🎓 
   - XSS
   - Path traversal
   - CSRF
-  - DNS
-  - Fetch API
-  - IncomingMessage
-  - SQL injection
+  - DNS 🎓 
+  - Fetch API 🎓 
+  - IncomingMessage 👂 
+  - SQL injection 🎓 
   - noDelay
   - keep-alive
   - ALPN
   - SNI callback
-  - SSL certificates
-  - Protocol agnostic approach
+  - SSL certificates 🎓 
+  - Protocol agnostic approach 👂 
 - Technique and tools
-  - Native test runner
-  - Logging
-  - Application configuring
-  - Testing
-  - CI/CD
-  - Readable
-  - Writable
-  - Transform
+  - Native test runner 👂 
+  - Logging 👂 
+  - Application configuring 👂 
+  - Testing 👂 
+  - CI/CD 👂 
+  - Readable 👂 
+  - Writable 👂 
+  - Transform 👂 
   - back pressure
   - Buffer
-  - Console
-  - Inspector
-  - Reliability
-  - Quality
-  - Availability
-  - Flexibility
+  - Console 👂 
+  - Inspector 👂 
+  - Reliability 👂 
+  - Quality 👂 
+  - Availability 👂 
+  - Flexibility 👂 
 - Data access
-  - Data access layer
-  - Repository
+  - Data access layer 👂 
+  - Repository 👂 
   - Active record
   - Query builder
   - Object-Relational Mapping
 - Error handling and debugging
-  - Error
-  - error.cause
-  - error.code
-  - error.message
-  - error.stack
+  - Error 🎓 
+  - error.cause 🎓 
+  - error.code 🎓 
+  - error.message 🎓 
+  - error.stack 🎓 
   - How to avoid mixins
   - Error.captureStackTrace
-  - Uncaught exceptions
-  - Heap dump
-  - Debugging tools
+  - Uncaught exceptions 👂 
+  - Heap dump 🎓 
+  - Debugging tools 🎓 
   - Flame graph
-  - Memory leaks
-  - Resource leaks
-  - Data race
+  - Memory leaks 🎓 
+  - Resource leaks 👂 
+  - Data race 👂 
 - Integrations and bindings
-  - Native addons
-  - C and C++ addons
+  - Native addons 👂 
+  - C and C++ addons 👂 
   - Rust addons
   - Zig addons
   - NAN (Native Abstractions for Node.js)
-  - Node-API (formerly N-API)
+  - Node-API (formerly N-API) 🎓 
   - NAPI C and C++
   - NAPI Rust
   - NAPI Zig
@@ -167,4 +167,4 @@
   - Webassembly AssemblyScript
   - Shared memory
   - SharedArrayBuffer
-  - V8 binary serialization
+  - V8 binary serialization 👂 
